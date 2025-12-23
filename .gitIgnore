@@ -3,9 +3,12 @@ __pycache__/
 *.py[cod]
 *.so
 *.pyd
+*.pyc
 *.pyo
-env/
+.env/
 .venv/
+venv/
+env/
 *.egg-info/
 *.egg
 *.log
@@ -23,7 +26,7 @@ faiss_index/
 # Data & archive
 data/
 archive/
-main_archive/
+train_archive/
 *.pdf
 
 # Secrets & configs
@@ -38,4 +41,4 @@ logs/
 dist/
 build/
 multi_doc_chat.egg-info/
-flow.excalidraw
+flow.mscalidraw
