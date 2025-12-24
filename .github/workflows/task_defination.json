@@ -1,7 +1,6 @@
 {
   "family": "llmopstdlive",
-  "
-  etworkMode": "awsvpc",
+  "networkMode": "awsvpc",
   "executionRoleArn": "arn:aws:iam::854173464596:role/ecsTaskExecutionRole",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "1024",
